@@ -6,7 +6,7 @@ background:white;
 border:1px solid #cecab9;
 margin:auto;
 width:600px;
-
+background:#eae7d2;
 overflow:auto;
 height:100%;
 }
@@ -28,8 +28,7 @@ color:#eae7d2;
 
 }
 
-		#menu{
-		
+		#menu{		
 		height:38px;
 		text-transform:capitalize;
 		font-family:verdana;
@@ -56,6 +55,7 @@ color:#eae7d2;
 			padding:8px 15px 8px 15px;
 			margin-left:-4px;
 			border-left:1px solid #51473d;
+			border-top:1px solid #847c73;
 			}
 			
 			#menu a{
@@ -69,22 +69,28 @@ color:#eae7d2;
 			margin:0;
 			}
 			
-			#menu li a.active{
-			color:#797066;
+			#menu li:hover{
+			background:#9c9084;
+			
 			}
 			
 			#menu li.active{
+			color:#797066;
 			background:#eae7d2;
+			
+			}
+			
+			#menu li.active a{		
 			color:#797066;
 			}
 
 #maincontent{
-background:#eae7d2;
 width:59%;
 font-size:12px;
 float:left;
 padding:7px;
 border-right:1px solid #eae7d2;
+margin-top:10px;
 }
 
 	#maincontent img{
@@ -95,11 +101,11 @@ border-right:1px solid #eae7d2;
 
 #subcontent{
 width:36%;
-background:#eae7d2;
 border-left:1px dashed #c0c0c0;
 font-size:10px;
 float:right;
 padding:7px;
+margin-top:20px;
 
 }
 
@@ -110,17 +116,17 @@ font-style:italic;
 font-family:verdana;
 color:#797066;
 overflow:auto;
-background:#eae7d2;
 text-align:left;
 height:20px;
 padding:5px;
+
 
 }
 
 		h1{
 		font-family:times new roman;
 		font-size:30px;
-		font-weight:normal;
+		font-weight:200;
 		color:#797066;
 		margin:0;
 		}
