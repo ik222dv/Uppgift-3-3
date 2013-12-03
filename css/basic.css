@@ -3,42 +3,74 @@ background:white;
 }
 
 #container{
-border:1px solid #333;
+border:1px solid #cecab9;
 margin:auto;
 width:600px;
-height:100%;
-padding:0;
 background-image:url(./pics/coffey.jpg);
-margin-top:100px;
+background-position: 0 1em;
+background-repeat:no-repeat;
+overflow:auto;
+height:100%;
 }
 
 #topbar{
-background:#51473d;
+
 font-family:verdana;
 font-size:10px;
 color:white;
 font-style:italic;
 padding:4px;
 text-align:right;
-
+background:#333;
+margin:auto;
+color:#eae7d2;
+background:#51473d;
 }
 
 		#menu{
-		background:#eae7d2;
 		display:inline;
 		height:20px;
 		text-transform:capitalize;
+		font-family:verdana;
+		font-size:12px;
+		text-decoration:none;	
 		}
+		
+		
 
-			ul{
+			#menu ul{
 			list-style-type:none;
 			margin:0;
 			padding:0;
 			
 			}
 			
-			li{
+			#menu li{
 			display:inline;
+			background:#797066;
+			text-decoration:none;
+			padding:5px;
+			}
+			
+			#menu a{
+			display:none;
+			text-decoration:none;
+			}
+			
+			#menu li a{
+			display:inline-block;
+
+			color:#eae7d2;
+			margin:0;
+			}
+			
+			#menu li a.active{
+			color:#797066;
+			}
+			
+				#menu li.active{
+			background:#eae7d2;
+			color:#797066;
 			}
 
 #maincontent{
@@ -47,7 +79,13 @@ width:59%;
 font-size:12px;
 float:left;
 padding:7px;
+border-right:1px solid #eae7d2;
 }
+
+	#maincontent	img{
+	float:left;
+	padding:5px;
+	}
 
 #subcontent{
 width:36%;
@@ -63,32 +101,85 @@ padding:7px;
 bottom:0;
 font-size:10px;
 font-style:italic;
-font-family:tahoma;
-color:#333;
+font-family:verdana;
+color:#797066;
+overflow:auto;
+background:#eae7d2;
+text-align:left;
+height:20px;
+padding:5px;
 }
 
 		h1{
-		font-family:georgia;
-		font-size:18px;
+		font-family:times new roman;
+		font-size:30px;
 		font-weight:normal;
 		color:#797066;
+		margin:0;
 		}
 		
 		h2{
-		font-family:georgia;
+		font-family:times new roman;
 		font-size:14px;
 		font-weight:normal;
 		color:#797066;
+		margin:0;
+		}
+		
+		#subcontent h1{
+		color:#51473d;
+		font-size:17px;
+		margin-bottom:10px;
 		}
 		
 		p{
 		font-family:verdana;
 		color:#797066;
 		text-align:left;
+		line-height: 150%;
+		margin:0;
 		
 		}
 		
+		#subcontent p{
+		font-family:verdana;
+		color:#797066;
+		text-align:left;
+		line-height: 200%;
+		margin:20px 0px 20px 0px;
+		}
+		  
+			
+			#subcontent ul{
+			}	
+			
+			#subcontent li{
+			display:list-item;
+			font-family:verdana;
+			font-size:12px;
+			line-height:150%;
+			}	
+			
+			#subcontent a{
+			color:#797066;
+			}
+			
+			#subcontent a:hover{
+			text-decoration:none;
+			}
 			
 			
 			
+			
+		
+			ul{
+			list-style-type:none;
+			margin:0;
+			padding:0;
+			
+			}
+			
+			li{
+			display:inline;
+			}
 			
